@@ -1,0 +1,32 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="TestFramework" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="TestFramework" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestClass01" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="TestFramework.TestClass01.CL01_TC01_ValidateSearchField" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CL01_TC01_ValidateSearchField(&quot;Polo&quot;,&quot;//*[contains(text(), 'No results')]&quot;)" />
+                        <Property Name="DisplayName" Value="CL01_TC01_ValidateSearchField(&quot;Blouse&quot;,&quot;//*[@title='Blouse'][@itemprop='image']&quot;)" />
+                        <Property Name="DisplayName" Value="CL01_TC01_ValidateSearchField(&quot;&quot;,&quot;//*[contains(text(), 'Please enter a search')]&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
